@@ -35,7 +35,7 @@ function set_chip(index) {
 }
 
 function update_chip_inputs() {
-    chips.sort()
+    chips.sort((a, b) => a - b)
 
     for(let i = 0; i < chips.length; i++) {
         chip_inputs[i].value = chips[i]
