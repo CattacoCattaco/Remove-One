@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Remove One</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p id="average-length">Average Length: </p>
+  <form>
+    <label for="chips">Chips:</label>
+    <input type="number" id="chip-0" name="chips" min="2" max="12" onChange="set_chip(0)">
+    <input type="number" id="chip-1" name="chips" min="2" max="12" onChange="set_chip(1)">
+    <input type="number" id="chip-2" name="chips" min="2" max="12" onChange="set_chip(2)">
+    <input type="number" id="chip-3" name="chips" min="2" max="12" onChange="set_chip(3)">
+    <input type="number" id="chip-4" name="chips" min="2" max="12" onChange="set_chip(4)">
+    <input type="number" id="chip-5" name="chips" min="2" max="12" onChange="set_chip(5)">
+    <input type="number" id="chip-6" name="chips" min="2" max="12" onChange="set_chip(6)">
+    <input type="number" id="chip-7" name="chips" min="2" max="12" onChange="set_chip(7)">
+    <input type="number" id="chip-8" name="chips" min="2" max="12" onChange="set_chip(8)">
+    <input type="number" id="chip-9" name="chips" min="2" max="12" onChange="set_chip(9)">
+    <input type="number" id="chip-10" name="chips" min="2" max="12" onChange="set_chip(10)">
+    <input type="number" id="chip-11" name="chips" min="2" max="12" onChange="set_chip(10)">
+    <input type="number" id="chip-12" name="chips" min="2" max="12" onChange="set_chip(10)">
+    <input type="number" id="chip-13" name="chips" min="2" max="12" onChange="set_chip(10)">
+    <input type="number" id="chip-14" name="chips" min="2" max="12" onChange="set_chip(10)"><br>
+    <button type="button" onmouseup="play_game()">Simulate 1 game</button><br>
+    <button type="button" onmouseup="play_games(5)">Simulate 5 games</button><br>
+    <button type="button" onmouseup="play_games(6)">Simulate 6 games</button><br>
+    <button type="button" onmouseup="play_games(10)">Simulate 10 games</button><br>
+    <button type="button" onmouseup="play_games(36)">Simulate 36 games</button><br>
+    <button type="button" onmouseup="play_games(50)">Simulate 50 games</button><br>
+    <button type="button" onmouseup="play_games(100)">Simulate 100 games</button><br>
+    <button type="button" onmouseup="play_games(216)">Simulate 216 games</button><br>
+    <button type="button" onmouseup="play_games(500)">Simulate 500 games</button><br>
+    <button type="button" onmouseup="play_games(1000)">Simulate 1000 games</button><br>
+    <button type="button" onmouseup="play_games(1296)">Simulate 1296 games</button><br>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
